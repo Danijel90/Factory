@@ -31,12 +31,14 @@ public class Main {
         fiat.maxFuel = 45;
         
         System.out.println("Model: " + fiat.model);
-                
-              
-        
-         
-        
-        
+        System.out.println("Godiste: " + fiat.buildYear);        
+        System.out.println("Boja: " + fiat.color);  
+        System.out.println("Potrosnja: " + fiat.consumption);
+        System.out.println("Maksimalna brzina: " + fiat.maxSpeed);
+        System.out.println("Trenutno stanje: " + fiat.currentFuel);
+        System.out.println("Zapremina rezervoara: " + fiat.model);
+        System.out.println("Zapremina rezervoara: " + fiat.model);
+       
     }
     
 }
