@@ -15,30 +15,36 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-     
         System.out.println("Pocetak");
+        String message = "Ovo je poruka";
+        Car fiat = new Car();
+        fiat.setModel("Fiat Punto");
+        fiat.setBuildYear(2010);
+        fiat.setColor("black");
+        fiat.setMaxFuel(45);
+        fiat.setConsumption(6);
+        fiat.setCurrentFuel(20);
         
-        
-        String massage = "Ovo je poruka";
-        
-        Car fiat = new Car ();
-        fiat.model = "Punto";
-        fiat.buildYear = 2010;
-        fiat.color = "black";
-        fiat.consumption = 6;
-        fiat.maxSpeed = 189;
-        fiat.currentFuel = 20;
-        fiat.maxFuel = 45;
-        
-        System.out.println("Model: " + fiat.model);
-        System.out.println("Godiste: " + fiat.buildYear);        
-        System.out.println("Boja: " + fiat.color);  
-        System.out.println("Potrosnja: " + fiat.consumption);
-        System.out.println("Maksimalna brzina: " + fiat.maxSpeed);
-        System.out.println("Trenutno stanje: " + fiat.currentFuel);
-        System.out.println("Zapremina rezervoara: " + fiat.model);
-        System.out.println("Zapremina rezervoara: " + fiat.model);
        
+        
+        fiat.showData();fiat.setMaxFuel(45);
+        
+        Car ford = new Car();
+        ford.setModel("Ford Fiesta");
+        ford.setBuildYear(2015);
+       
+        ford.showData();
+        System.out.println("Model: " + ford.getModel());
+
+
+
+
+
+
+    
+        
     }
+    
+    
     
 }
