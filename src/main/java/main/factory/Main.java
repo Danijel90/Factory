@@ -15,34 +15,45 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        
         System.out.println("Pocetak");
-        String message = "Ovo je poruka";
-        Car fiat = new Car();
-        fiat.setModel("Fiat Punto");
-        fiat.setBuildYear(2010);
-        fiat.setColor("black");
-        fiat.setMaxFuel(45);
-        fiat.setConsumption(6);
-        fiat.setCurrentFuel(20);
-        
        
+//        Car fiat = new Car();
+//        fiat.model = "Fiat Punto";
+
+//      Car fiat = new Car("Fiat Punto", "2010". "Black", 6, 20, 45);
+
+        Car fiat = new Car("Fiat Punto", 2010, 180, "Black", 45, 220000);
+                
+//        fiat.setModel("Fiat Punto");
+//        fiat.setBuildYear(2010);
+//        fiat.setColor("black");
+//        fiat.setConsumption(6);
+//        fiat.setMaxSpeed(180);
+//        fiat.setCurrentFuel(20);
+//        fiat.setConsumption(45);
+               
+        fiat.showData();
         
-        fiat.showData();fiat.setMaxFuel(45);
+//        System.out.println("");
         
-        Car ford = new Car();
-        ford.setModel("Ford Fiesta");
-        ford.setBuildYear(2015);
-       
-        ford.showData();
-        System.out.println("Model: " + ford.getModel());
-
-
-
-sa
-
-
-    
+        Car Audi = new Car("Audi a8", 2019, 220, "blue", 100, 20, 18);
         
+        
+//        ford.model = "Mustang GT";
+//        ford.setModel("Mustang GT");
+//        ford.setBuildYear(2016);
+//        ford.setColor("Black with red stripes");
+//        ford.setConsumption(20);
+//        ford.setMaxSpeed(280);
+//        ford.setCurrentFuel(50);
+//        ford.setMaxFuel(100);
+//        
+        Audi.showData();
+              
+        
+        
+               
     }
     
     
